@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700');
+
+body {
+    background:rgb(129, 124, 98);
+    padding: 3em;
+    color:#fff;
+}
+
+ul {
+    list-style-type:none;
+    margin:0 0 2em 0;
+    padding:0;
+}
+
+ul li {
+    display:inline;
+    margin-right: 30px;
+}
+
+ul li a {
+    font-size: 1.5em;
+}
+
+a {
+    color:#fff;
+    text-decoration:none;
+}
+
+h2 {
+    margin: auto;
+    width: 50%;
+}
+
+* { 
+    font-family: 'Raleway', 'Arial';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 3px;
+    background-color: white;
+    font-size: 14px;
+}
+
+#root {
+    margin: auto;
+    margin-top: 35px;
+    width: 50%;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 10px;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 60px;
+    height: 60px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 60px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+
+.game-info {
+    margin-left: 20px;
+}
